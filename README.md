@@ -1,7 +1,6 @@
 # redireccionar a https  www
 
-```
-
+```htaccess
 RewriteCond %{HTTPS} off
 # First rewrite to HTTPS:
 # Don't put www. here. If it is already there it will be included, if not
